@@ -1,0 +1,19 @@
+<ion-modal-view>
+  <ion-header-bar>
+
+    <h1 class="title">プロフィール</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="home.closeModal()">閉じる</button>
+    </div>
+
+  </ion-header-bar>
+
+  <ion-content>
+    <div class="item item-body">
+      <h2>{{home.info.name}}</h2>
+      <p>年齢 : {{home.info.age}}</p>
+      <p>性別 : {{home.info.gender}}</p>
+      <p>居住地 : {{home.info.location}}</p>
+    </div>
+  </ion-content>
+</ion-modal-view>
